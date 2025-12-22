@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fotos_ia_generadas",
+  "info": {
+    "singularName": "fotos-ia-generada",
+    "pluralName": "fotos-ia-generadas",
+    "displayName": "Fotos-ia-generada"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageGenerated": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

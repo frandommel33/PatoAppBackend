@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fotos_ias",
+  "info": {
+    "singularName": "fotos-ia",
+    "pluralName": "fotos-ias",
+    "displayName": "Fotos-ia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "prompt": {
+      "type": "text",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
