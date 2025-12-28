@@ -470,8 +470,7 @@ export interface ApiFotosIaGeneradaFotosIaGenerada
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    imageGenerated: Schema.Attribute.Media<'images', true> &
-      Schema.Attribute.Required;
+    imageGenerated: Schema.Attribute.Media<'images', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
