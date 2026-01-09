@@ -442,6 +442,7 @@ export interface ApiAudioAudio extends Struct.SingleTypeSchema {
   };
   attributes: {
     audio: Schema.Attribute.Media<'audios', true> & Schema.Attribute.Required;
+    audioFinal: Schema.Attribute.Media<'audios'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

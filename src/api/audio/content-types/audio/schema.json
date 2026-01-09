@@ -18,6 +18,13 @@
       "allowedTypes": [
         "audios"
       ]
+    },
+    "audioFinal": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "audios"
+      ]
     }
   }
 }
