@@ -25,6 +25,13 @@
       "allowedTypes": [
         "audios"
       ]
+    },
+    "audioError": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "audios"
+      ]
     }
   }
 }
